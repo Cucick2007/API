@@ -1,0 +1,108 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("img/clouds.jpg");
+  background-color: #b4e1f3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  color: aliceblue;
+  left: 43%;
+  top: 2%;
+}
+
+.titulo {
+  margin-left: 825px;
+}
+
+.fdst {
+  top: 30%;
+  left: 43%;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(18, 28, 56);
+  background-color: #b4e1f394;
+}
+
+input {
+  max-width: 190px;
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: .15rem .5rem;
+  min-height: 35px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  margin-left: 45px;
+}
+
+input:focus {
+  border-bottom: 2px solid #5b5ec767;
+  border-radius: 4px 4px 2px 2px;
+}
+
+input:hover {
+  outline: 1px solid lightgrey;
+}
+
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 25px;
+  color: #000;
+  background-color: #ffffff8f;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: 50px;
+}
+
+button:hover {
+  background-color: #23c4bc6b;
+  box-shadow: 0px 15px 20px rgba(23, 66, 116, 0.226);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+.meio {
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.butao {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: rgba(30, 143, 255, 0.570);
+  color: white;
+  border-radius: 4px;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+.butao:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(30, 143, 255, 0.570) 0%, rgba(0, 213, 255, 0.590) 100%);
+}
+
+.butao:active {
+  transform: translate(0em, 0.2em);
+}

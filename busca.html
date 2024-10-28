@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="busca.css">
+    <title>API Botão</title>
+</head>
+
+<body>
+    <br><br>
+    <div class="principal">
+        <h1>Busca por Álbuns</h1>
+    </div>
+    <br><br>
+
+    <a href="home.html"><button class="butao">back</button></a>
+
+    <fieldset class="caixa">
+
+        <div class="div">
+            <h3></h3>
+            <p>Digite um número de 1 a 10</p>
+            <p>e descubra uma recomendação de álbum de música :D</p>
+            </h3>
+
+            <div id="image"></div>
+            <div id="album"></div>
+            <div id="nome"></div>
+            <div id="estilo"></div>
+            <div id="faixas"></div>
+            <div id="link"></div>
+            <br>
+
+            <input type="number" id="valor" placeholder="DIgite o ID">
+            <div id="erro"></div>
+            <br>
+            <button onclick="buscar()">Buscar</button>
+        </div>
+
+    </fieldset>
+
+    <script src="busca.js"></script>
+</body>
+
+</html>

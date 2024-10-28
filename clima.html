@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="py-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="clima.js"></script>
+    <link rel="stylesheet" href="clima.css">
+    <title>Weather ☁</title>
+</head>
+<body>
+
+    <a href="home.html"><button class="butao">back</button></a>
+
+    
+    <div class="titulo">
+        <h1>Previsão do tempo</h1>
+    </div>
+
+    <fieldset class="fdst">
+        
+        <div>
+            <div class="meio"></div>
+            <h1>Previsão do Tempo</h1> 
+            
+            <h4>Digite o nome da cidade</h4>
+            <input name="text" placeholder="Nome da Cidade" type="search" id="cidade">
+            <br><br>
+            <button onclick="getWeather()" >Pesquisar</button>
+            <p id="temp">Aguarde</p>
+        </div>
+
+    </fieldset>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(img/planet_earth-copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    color: rgb(3, 86, 158);
+    left: 43%;
+    top: 2%;
+}
+
+.div {
+    width: 285px;
+    height: 605px;
+    margin-top: 100px;
+    margin-left: 43%;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
+fieldset {
+    border-radius: 16px;
+    border: 1px solid rgba(198, 243, 243, 0.425);
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 190%;
+    color: rgba(227, 246, 253, 0.692);
+}
+
+.sub {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+    color: aliceblue;
+}
+
+.valor {
+    background-color: rgba(181, 225, 255, 0.120);
+    font-size: 20px;
+    color: cadetblue;
+    border: rgba(255, 255, 255, 0.50);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgba(30, 143, 255, 0.570);
+    color: white;
+    border-radius: 4px;
+    margin-left: 250px;
+    margin-top: 100px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30, 143, 255, 0.570) 0%, rgba(0, 213, 255, 0.590) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }

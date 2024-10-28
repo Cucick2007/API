@@ -1,0 +1,25 @@
+{
+    "nome": "BTS",
+    "album": "Proof",
+    "style": "K-pop",
+    "price": "R$ 25,90",
+    "image":  "<img src='img/proof.jpeg' width='200px'>",   
+
+    "nome2": "Jungkook",
+    "album2": "Golden",
+    "style2": "K-pop",
+    "price2": "R$ 35,50",
+    "image2": "<img src='img/jkGolden.jpg' width='200px'>",
+    
+    "nome3": "Taehyung / V",
+    "album3": "Layover",
+    "style3": "K-pop",
+    "price3": "R$ 35,90",
+    "image3": "<img src='img/layover.jpg' width='200px'>",
+    
+    "nome4": "J-Hope",
+    "album4": "Jack in the Box",
+    "style4": "K-pop",
+    "price4": "R$ 27,99",
+    "image4": "<img src='img/jack-in-the-box.png' width='200px'>"
+}
